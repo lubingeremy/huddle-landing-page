@@ -5,13 +5,13 @@
 
 body{
     background: url(/images/bg-mobile.svg) no-repeat top/100vw;
-    background-color: hsl(257, 40%, 49%);
-    padding: 9vw 9vw;
+    /* background-color: hsl(257, 40%, 49%); */
+    background-color: hsl(228, 45%, 44%);
+    padding: 9vw 9vw 0 9vw;
     font-size: 15px;
 }
 
 header{
-    /* background-color: black; */
     margin-bottom: 11vh;
 }
 
@@ -22,7 +22,6 @@ header{
 .illustration{
     width: 100%;
     display: flex;
-    /* align-items: center; */
     justify-content: center;
     margin-bottom: 13vh;
 }
@@ -62,5 +61,12 @@ button{
     border-radius: 10rem;
     border: none;
     margin-bottom: 3vh;
-
+    color: hsl(257, 40%, 49%);
+    font-size: 1.1rem;
 }
+
+footer a{
+    color: white;
+    text-decoration: none;
+}
+
